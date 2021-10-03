@@ -129,10 +129,10 @@ nav .fa {
 
 .about {
     width: 80%;
-    margin: auto;
+    margin: 50px auto;
+    padding: 50px;
     font-size: 20px;
     text-align: justify;
-    padding-top: 100px;
     text-align: center;
 }
 
@@ -159,7 +159,6 @@ nav .fa {
 
 .about-col {
     flex-basis: 31%;
-    background: #fff3ff;
     border-radius: 10%;
     margin-bottom: 5%;
     box-sizing: border-box;
