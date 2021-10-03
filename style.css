@@ -267,6 +267,7 @@ nav .fa {
 .products img {
     width: 75%;
     border-radius: 8px;
+    box-shadow: 1px 1px 12px grey;
 }
 
 .product-row {
