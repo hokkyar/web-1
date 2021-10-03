@@ -52,7 +52,7 @@ nav img {
 .nav-links ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     margin: 5px;
 }
 
@@ -85,7 +85,7 @@ nav img {
 }
 
 .text-box h1 {
-    font-size: 59px;
+    font-size: 55px;
 }
 
 .hero-btn {
@@ -93,6 +93,7 @@ nav img {
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
+    border-radius: 5px;
     padding: 15px 35px;
     margin-top: 20px;
     font-size: 20px;
@@ -170,7 +171,10 @@ nav .fa {
     text-align: justify;
 }
 
-.about-col:hover {
+.about-col:hover,
+.about h1:hover,
+.feature h1:hover,
+.products h1:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -184,11 +188,6 @@ nav .fa {
     color: purple;
 }
 
-@media(max-width: 1100px) {
-    .row {
-        flex-direction: column;
-    }
-}
 
 /* FEATURE */
 .container {
@@ -208,6 +207,7 @@ nav .fa {
     padding: 50px;
     margin: 50px;
     border: 1px solid green;
+    border-radius: 20px;
 }
 
 .bagian-row {
@@ -255,12 +255,13 @@ nav .fa {
     padding: 50px;
     margin: 50px;
     border: 1px solid blueviolet;
+    border-radius: 20px;
 }
 
 .products h1 {
     font-size: 36px;
     font-weight: 60;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .products img {
@@ -288,6 +289,7 @@ nav .fa {
 
 .col h2 {
     border: 1px solid grey;
+    box-shadow: 1.5px 1px 1px grey;
     padding: 7px;
     border-radius: 20px;
     margin: 0 0 15px 0;
@@ -302,13 +304,17 @@ nav .fa {
     font-family: 'Times New Roman', Times, serif;
 }
 
-@media(max-width: 400px) {
+@media(max-width: 600px) {
 
     .feature,
     .products {
         text-align: center;
         margin: auto;
         border: none;
+    }
+
+    .row {
+        flex-direction: column;
     }
 
     .row .footer-col {
@@ -318,6 +324,20 @@ nav .fa {
 
     .text-box h1 {
         font-size: 30px;
+    }
+
+    .text-box p {
+        font-size: 20px;
+    }
+
+    .bagian-col p {
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .about p {
+        font-size: 15px;
+        text-align: center;
     }
 }
 
