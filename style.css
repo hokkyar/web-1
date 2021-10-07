@@ -263,7 +263,7 @@ nav .fa {
 }
 
 .products img {
-    width: 75%;
+    width: 50%;
     border-radius: 8px;
     box-shadow: 1px 1px 12px grey;
 }
@@ -272,6 +272,29 @@ nav .fa {
     width: 100%;
     display: flex;
     padding-bottom: 10px;
+}
+
+.contact-us {
+    padding: 8px;
+    border: 1px solid rgb(190, 182, 182);
+    width: 30%;
+    margin: 25px auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-us a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    width: 100%;
+}
+
+.contact-us:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    opacity: 0.8;
 }
 
 @media(max-width: 1000px) {
@@ -284,6 +307,7 @@ nav .fa {
 .col {
     padding: 10px;
     flex: 1;
+    justify-content: center;
 }
 
 .col h2 {
@@ -299,8 +323,9 @@ nav .fa {
 
 .col p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
+    align-items: center;
 }
 
 @media(max-width: 600px) {
@@ -310,6 +335,10 @@ nav .fa {
         text-align: center;
         margin: auto;
         border: none;
+    }
+
+    .products img {
+        width: 80%;
     }
 
     .row {
@@ -336,6 +365,14 @@ nav .fa {
 
     .about p {
         font-size: 15px;
+    }
+
+    .col p {
+        font-size: 18px;
+    }
+
+    .contact-us {
+        width: 50%;
     }
 }
 
