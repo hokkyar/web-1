@@ -302,11 +302,6 @@ nav .fa {
         flex-direction: column;
         padding-bottom: 37px;
     }
-
-    .contact-us {
-        padding: 15px;
-    }
-
 }
 
 .col {
@@ -378,6 +373,12 @@ nav .fa {
 
     .contact-us {
         width: 50%;
+    }
+}
+
+@media(max-width: 1000px){
+    .contact-us {
+        padding: 15px;
     }
 }
 
