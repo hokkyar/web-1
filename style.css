@@ -277,7 +277,7 @@ nav .fa {
 .contact-us {
     padding: 8px;
     border: 1px solid rgb(190, 182, 182);
-    width: 30%;
+    width: 50%;
     margin: 25px auto;
     cursor: pointer;
     transition: 0.5s;
@@ -302,6 +302,11 @@ nav .fa {
         flex-direction: column;
         padding-bottom: 37px;
     }
+
+    .contact-us {
+        padding: 15px;
+    }
+
 }
 
 .col {
