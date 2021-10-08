@@ -142,7 +142,7 @@ nav .fa {
 
 .about p {
     color: #777;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 32px;
     padding: 10px;
@@ -193,7 +193,7 @@ nav .fa {
     flex-wrap: wrap;
 }
 
-@media(max-width:1100px) {
+@media(max-width:1200px) {
     .container {
         flex-direction: column;
     }
@@ -222,8 +222,8 @@ nav .fa {
 }
 
 .bagian-col p {
-    font-size: 15px;
-    font-family: cursive;
+    font-size: 16.5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .feature h1 {
@@ -376,9 +376,9 @@ nav .fa {
     }
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1000px) {
     .contact-us {
-        padding: 15px;
+        padding: 20px;
     }
 }
 
