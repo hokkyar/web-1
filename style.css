@@ -440,13 +440,22 @@ footer .row {
     line-height: 50px;
 }
 
-.icon-medsos img {
+.whatsapp img,
+.instagram img {
     width: 27px;
     height: 27px;
-    margin-right: 40px;
+    margin-left: 30px;
 }
 
-
-.icon-medsos {
+.whatsapp,
+.instagram,
+.email {
+    margin-top: 27px;
     float: left;
+}
+
+.email img {
+    width: 27px;
+    height: 32px;
+    margin-top: -2.5px;
 }
