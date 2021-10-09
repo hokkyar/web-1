@@ -440,22 +440,35 @@ footer .row {
     line-height: 50px;
 }
 
-.whatsapp img,
+.whatsapp img {
+    width: 27px;
+    height: 27px;
+    margin: 0 0 0 30px;
+}
 .instagram img {
     width: 27px;
     height: 27px;
     margin: 0 0 0 30px;
 }
-
-.whatsapp,
-.instagram,
-.email {
-    margin: 27px 0 0 0;
-    float: left;
-}
-
 .email img {
     width: 27px;
     height: 32px;
     margin: -2px 0 0 0;
 }
+
+.whatsapp{
+    margin: 27px 0 0 0;
+    float: left;
+}
+
+.email {
+    margin: 27px 0 0 0;
+    float: left;
+}
+
+.instagram {
+    margin: 27px 0 0 0;
+    float: left;
+}
+
+
